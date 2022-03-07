@@ -1,0 +1,44 @@
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+
+.home-container {
+    margin: 6rem 0 0 0;
+    display: flex;
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-header {
+    font-weight: bold;
+    font-size: 3.5rem;
+    max-width: 20vw;
+    margin-bottom: 1rem;
+    font-family: 'Graphik', sans-serif;
+}
+
+.home-header-text {
+    opacity: 0.7;
+    max-width: 25vw;
+    line-height: 2rem;
+}
+
+.home-button-wrapper {
+    margin: 3rem 0 0 0;
+}
+
+.person {
+    position: relative;
+    top: -6rem;
+    right: -5rem;
+    height: 720px;
+    width: 720px;
+    overflow: hidden;
+
+}
+
+.person-wrapper {
+    display: flex;
+    max-height: 65vh;
+}

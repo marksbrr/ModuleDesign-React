@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: -10px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.about-description {
+    position: relative;
+    max-width: 28vw;
+    top: 0.5rem;
+    left: 5rem;
+}
+
+.about-header {
+    font-weight: bold;
+    font-size: 3.5rem;
+    max-width: 25vw;
+    margin-bottom: 1rem;
+    font-family: 'Graphik', sans-serif;
+}
+
+.conference-image {
+    height: 670px;
+    width: 1160px;
+    margin-bottom: 5rem;
+}

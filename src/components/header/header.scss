@@ -1,0 +1,109 @@
+.enver-logo {
+    width: 32px;
+    margin-right: 6px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1160px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-text {
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+        opacity: 0.7;
+        color: #5454D4;
+    }
+}
+
+.nav-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 8px 32px;
+    transition: 0.5s;
+
+    &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .nav,
+    .nav-button {
+        display: none;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .person-wrapper {
+        position: relative;
+        top: 2rem;
+        right: 10rem;
+    }
+
+    .home-header {
+        font-weight: bold;
+        font-size: 3.5rem;
+        min-width: 25vw;
+        margin-bottom: 1rem;
+        font-family: 'Graphik', sans-serif;
+    }
+
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-header {
+        font-weight: bold;
+        font-size: 3.5rem;
+        min-width: 25vw;
+        margin-bottom: 1rem;
+        font-family: 'Graphik', sans-serif;
+    }
+
+    .about-description {
+        min-width: 28vw;
+    }
+}

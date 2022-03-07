@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1160px;
+    height: 20vh;
+    background-color: (0, 0, 0, 0.1)
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+.logo-wrapper {
+    display: flex;
+    gap: 0.1rem;
+    font-weight: 700;
+    font-size: 22px;
+    transition: 0.5s;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
+
+.copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+.footer-nav-text {
+    transition: 0.5s;
+
+    &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
